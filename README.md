@@ -16,6 +16,8 @@ Before using this configuration, ensure you have the following installed:
   sudo apt-get install exuberant-ctags
   ```
 
+- **JetBrains Mono Nerd Font**: This font (`JetBrainsMonoNerdFontMono-Bold.ttf`) is required for powerline symbols. Find the font file in the repository and install it.
+
 ## Keyboard Shortcuts
 
 - `+`: Resize tabs.
@@ -26,14 +28,17 @@ Before using this configuration, ensure you have the following installed:
 
 ## Custom Commands
 
-- `Ctrl + J`: Format the entire code.
+- `Ctrl + j`: Format the entire code.
 - Select code and use `=` to format the selected part.
 - `F4`: Enable autocompletion.
 - `F5`: Disable autocompletion.
 - Use `:Man <code>` to access man documentation directly in Vim.
-- `F6`: Toggle background theme.
+- `F6`: Toggle background/transparent theme.
 
-## Additional Shortcuts
+## Additional Requirements
 
-- Use comma (`,`) to comment a line.
-- Use dot (`.`) to uncomment a line.
+- Powerline Symbols: Install the provided font (`JetBrainsMonoNerdFontMono-Bold.ttf`) for proper powerline display.
+
+## Note on Plugins
+
+- If no Wakatime API keys are available, comment out the Wakatime plugin to prevent errors.
