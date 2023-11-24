@@ -20,7 +20,7 @@
 " General =====================================================================================================
 set encoding=utf-8
 set number " Line number
-set relativenumber "relativenumber line nubmer
+set relativenumber "relativenumber line number
 set hlsearch " Highlight while searching
 set colorcolumn=80 " Restricted length bar
 set belloff=all " Remove beeping
