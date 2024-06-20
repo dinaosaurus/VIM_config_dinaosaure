@@ -20,7 +20,6 @@
 " General =====================================================================================================
 set encoding=utf-8
 set number " Line number
-set relativenumber "relativenumber line number
 set hlsearch " Highlight while searching
 set colorcolumn=80 " Restricted length bar
 set belloff=all " Remove beeping
@@ -78,7 +77,6 @@ Plugin 'vim-airline/vim-airline'
 Plugin 'vim-airline/vim-airline-themes'
 Plugin 'https://github.com/tpope/vim-fugitive.git'
 Plugin 'dense-analysis/ale'
-Plugin 'wakatime/vim-wakatime'
 Plugin 'airblade/vim-gitgutter'
 Plugin 'preservim/tagbar'
 Plugin 'preservim/nerdtree' |
@@ -320,3 +318,5 @@ function! ToggleBackground()
 endfunction
 
 nnoremap <F6> :call ToggleBackground()<CR>
+
+highlight Normal ctermfg=grey ctermbg=black "background color
