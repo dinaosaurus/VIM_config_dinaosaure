@@ -41,4 +41,6 @@ Before using this configuration, ensure you have the following installed:
 
 ## Note on Plugins
 
-- If no Wakatime API keys are available, comment out the Wakatime plugin to prevent errors.
+## Credits
+
+@Antrubtor
