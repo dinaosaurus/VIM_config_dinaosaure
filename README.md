@@ -48,3 +48,6 @@ Before using this configuration, ensure you have the following installed:
 ## Final Result
 
 ![Result](vim_config_dinaosaure.png)
+
+
+![Result .vimrc](config_vim.png)
