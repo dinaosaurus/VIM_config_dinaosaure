@@ -50,4 +50,4 @@ Before using this configuration, ensure you have the following installed:
 ![Result](vim_config_dinaosaure.png)
 
 
-![Result .vimrc](config_vim.png)
+![Result .vimrc](config vim.png)
